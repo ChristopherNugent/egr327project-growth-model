@@ -24,5 +24,5 @@ try:
             last = len(entries)
         step += 1
 except KeyboardInterrupt:
-    print('\nSize of {:,} entries after {:,} steps, which is {:.4f}% of the expected number'
+    print('\nSize of {:,} entries after {:,} steps, which is {:.4f}% of the non-cyclic size'
         .format(len(entries), step, 100 * len(entries)/(step - 100)))
